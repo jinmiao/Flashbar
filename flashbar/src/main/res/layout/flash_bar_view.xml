@@ -40,7 +40,6 @@
                 android:layout_marginEnd="@dimen/fb_margin_right_icon"
                 android:layout_marginRight="@dimen/fb_margin_right_icon"
                 android:src="@drawable/ic_info"
-                android:tint="@color/white"
                 android:visibility="gone"
                 tools:visibility="visible" />
 
