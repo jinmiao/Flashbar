@@ -21,7 +21,7 @@ class KotlinSampleActivity : AppCompatActivity() {
 
         show.setOnClickListener {
             if (flashbar == null) {
-                flashbar = basic()
+                flashbar = iconAdvanced()
             }
             flashbar?.show()
         }
@@ -217,8 +217,8 @@ class KotlinSampleActivity : AppCompatActivity() {
                 .message("You can show a default icon on the left side of the with view.")
                 .backgroundColorRes(R.color.colorPrimaryDark)
                 .showIcon()
-                .icon(R.drawable.ic_drop)
-                .iconColorFilterRes(R.color.colorAccent)
+                .icon(R.drawable.avatar_5)
+//                .iconColorFilterRes(R.color.colorAccent)
                 .build()
     }
 
