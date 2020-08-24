@@ -34,8 +34,8 @@
 
             <ImageView
                 android:id="@+id/fbIcon"
-                android:layout_width="@dimen/fb_icon_size"
-                android:layout_height="@dimen/fb_icon_size"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginEnd="@dimen/fb_margin_right_icon"
                 android:layout_marginRight="@dimen/fb_margin_right_icon"
